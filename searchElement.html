@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Search element</title>>
+    </head>
+    <body>
+        <script>
+            var array = [12, 34 , 23, 45, 98];
+            var found = array.find(function (element) {
+                return element > 100;
+            });
+            if(found){
+                console.log(found);
+            }
+            else{
+                console.log("Element not found");
+            }
+           
+        </script>
+    </body>
+</html>
